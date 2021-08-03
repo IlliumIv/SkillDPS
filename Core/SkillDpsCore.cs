@@ -34,7 +34,7 @@ namespace Skill_DPS.Core
 
         private bool SkillDPSLogic()
         {
-            var hoverUi = GameController.Game.IngameState.UIHoverTooltip.Tooltip;
+            var hoverUi = GameController.Game.IngameState.UIHover.Tooltip;
 
             var ids = GameController.IngameState.ServerData.SkillBarIds;
 
